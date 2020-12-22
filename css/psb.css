@@ -1,0 +1,10 @@
+#page-top .screen img{ max-height: none;}
+
+/* 자바스크립트로 제작된 컨텐츠를 반드시 요소검사로 추적해서 새치기하기 스타일 스킬중 아주 중요
+일단 xeicon의 유니코드를 알아 내는 것이 제일 중요!  */
+
+#page-top header .owl-next .fa:before{content: "\e93e"}
+#page-top header .owl-prev .fa:before{content: "\e93b"}
+
+/* xeicon의 폰트체를 잡아주지 못하면 유니코드가 출력되지 못한다.  */
+#page-top header .owl-controls .fa:before{font-family: "xeicon"; font-style: normal;}
