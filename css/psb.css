@@ -8,3 +8,11 @@
 
 /* xeicon의 폰트체를 잡아주지 못하면 유니코드가 출력되지 못한다.  */
 #page-top header .owl-controls .fa:before{font-family: "xeicon"; font-style: normal;}
+
+
+
+.navbar-fixed-top img.expand{ display:block; }
+.navbar-fixed-top img:not(.expand){ display:none; }
+/*스크롤안했을때 상단*/
+.navbar-fixed-top.navbar-expanded img.expand{ display: none; }
+.navbar-fixed-top.navbar-expanded img:not(.expand){ display: block; }
